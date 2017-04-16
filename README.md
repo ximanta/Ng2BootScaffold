@@ -1,5 +1,5 @@
 # ng2bootscaffold
-A minimal Angular2 and Spring Boot starter project
+## Spring Boot REST Service with Swagger 2 Documentation
 
 
 ## Steps to run
@@ -10,8 +10,14 @@ A minimal Angular2 and Spring Boot starter project
 
 3. Select Import Existing Project and import ng2bootscaffold/pom.xml
 
-4. Select View -> Tools Window->Maven Project
+4. Checkout ng2bootrest branch
 
-5. Expand frontend->Lifecycle node and double-click install
+5. Run Ng2bootApplication. Tomcat starts at 8080 serving the REST service.
 
-6. Right-click Ng2bootApplication in backend->src->main->java->
+6. Access the documentation at http://localhost:8080/swagger-ui.html to access the service
+
+## Known Issues
+
+Update movie not working
+
+Insert and Delete routes needs to return JSON response
