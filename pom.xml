@@ -27,5 +27,10 @@
 	<modules>
 		<module>frontend</module>
 		<module>backend</module>
+		<module>config</module>
+		<module>registry-service</module>
+		<module>gateway-service</module>
+		<module>auth-service</module>
+		<module>monitoring-service</module>
 	</modules>
 </project>

@@ -1,6 +1,8 @@
-# ng2bootscaffold
-## Spring Boot REST Service with Swagger 2 Documentation
+# ng2bootstack
+## Spring Boot Cloud Native Distributed Service Architecture
+## Functional services
 
+Movie app is decomposed into two core microservices that are independently deployable applications, organized around certain business capability.
 
 ## Steps to run
 
@@ -10,11 +12,9 @@
 
 3. Select Import Existing Project and import ng2bootscaffold/pom.xml
 
-4. Checkout ng2bootrest branch
+4. Checkout ng2bootcloud1 branch
 
-5. Run Ng2bootApplication. Tomcat starts at 8080 serving the REST service.
 
-6. Access the documentation at http://localhost:8080/swagger-ui.html to access the service
 
 ## Known Issues
 
